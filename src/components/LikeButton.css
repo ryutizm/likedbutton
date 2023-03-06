@@ -1,8 +1,31 @@
-.likeButton {
-    background-color: rgb(231, 76, 60);
+div {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 100px;
+}
+
+span {
+    user-select: none;
+}
+
+
+.likeButton-plus {
+    background-color: rgb(48, 137, 6);
     color: white;
     padding: 0.8rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    user-select: none;
+
+}
+.likeButton-minus {
+    background-color: rgb(235, 32, 32);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.count {
+    margin: 10px 5px;
 }
